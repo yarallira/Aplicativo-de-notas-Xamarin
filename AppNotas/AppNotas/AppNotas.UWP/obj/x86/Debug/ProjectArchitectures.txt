@@ -1,0 +1,1 @@
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas.UWP\AppNotas.UWP.csproj;x86

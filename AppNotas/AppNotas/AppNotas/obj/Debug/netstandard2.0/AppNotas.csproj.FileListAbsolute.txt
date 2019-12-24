@@ -1,0 +1,16 @@
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.csprojAssemblyReference.cache
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\Views\PageCadastrar.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\Views\PageHome.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\Views\PageListar.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\Views\PageSobre.xaml.g.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.csproj.CoreCompileInputs.cache
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.AssemblyInfoInputs.cache
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.AssemblyInfo.cs
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\bin\Debug\netstandard2.0\AppNotas.deps.json
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\bin\Debug\netstandard2.0\AppNotas.dll
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\bin\Debug\netstandard2.0\AppNotas.pdb
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.dll
+C:\Users\Yara\source\repos\AppNotas\AppNotas\AppNotas\obj\Debug\netstandard2.0\AppNotas.pdb
