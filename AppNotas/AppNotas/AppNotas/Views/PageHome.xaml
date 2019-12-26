@@ -3,17 +3,53 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppNotas.Views.PageHome" Title="Home">
   <ContentPage.Content>
-      <StackLayout>
-            <Image Source="esqueci1.png" />
-            <Label Text="Página Home" 
-           FontAttributes="Bold"
-           FontSize="Large"
-           VerticalOptions="CenterAndExpand" 
-           HorizontalOptions="CenterAndExpand"
-           />
-            <StackLayout Orientation="Horizontal" Margin="20,0,20,20">
-                <Label x:Name="Desenvolvedora" Text="Desenvolvido por Yara Márcia Lira" FontSize="Medium" FontAttributes="Bold" TextColor="Red"/>
-            </StackLayout>
-        </StackLayout>
-  </ContentPage.Content>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="esqueci1.png"
+                Grid.Row="0" Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>
+
+            <Image Source="inserir.png"  
+                   Grid.Row="1" Grid.Column="0"
+                   VerticalOptions="End"/>
+            <Image Source="localizar.png" 
+                   Grid.Row="1" Grid.Column="1"
+                    VerticalOptions="End"/>
+
+            <Label Text="Cadastrar" 
+                   Grid.Row="2" Grid.Column="0" FontSize="Large"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"/>
+            <Label Text="Localizar" 
+                   Grid.Row="2" Grid.Column="1" FontSize="Large"
+                   HorizontalOptions="Center"
+                   VerticalOptions="End"/>
+
+            <Label Text="Desenvolvedora: Yara M. Lira" 
+                   FontSize="Medium"
+                   TextColor="Red"
+                   Grid.Row="3" Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="End"/>
+
+            <!--<Image Source="info2.png" />-->         
+            <!--<Image Source="info.png"  />-->
+        </Grid>
+        
+       
+        
+    </ContentPage.Content>
 </ContentPage>

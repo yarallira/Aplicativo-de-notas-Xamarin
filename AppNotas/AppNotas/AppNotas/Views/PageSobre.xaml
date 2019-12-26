@@ -4,26 +4,31 @@
              x:Class="AppNotas.Views.PageSobre"
              Title="Sobre">
     <ContentPage.Content>
-        <StackLayout Orientation="Horizontal">
-            <Image Source="esqueci1.png"/>
-            <StackLayout>
-                <Label Text="App Esqueci" 
-            FontAttributes="Bold"
-            FontSize="Large" 
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="Center"/>                
+        <StackLayout Orientation="Horizontal" Margin="20" >
+            <Image Source="esqueci1.png" />
+            <StackLayout Margin="10" >
+                <Label Text="Dados do Aplicativo" 
+                FontSize="Large" 
+                VerticalOptions="EndAndExpand"  
+                FontAttributes="Bold" />
+                
+                <Label Text="Nome do app: App Esqueci"  
+                FontAttributes="Bold"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>                
 
-                <Label Text="Desenvolvido como parte do curso Xamarin Módulo 1" 
-            FontAttributes="Bold"
-            FontSize="Medium"
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="Center"/>
+                <Label Text="Descrição do projeto: Projeto desenvolvido como parte do curso Xamarin Módulo 1" 
+                FontAttributes="Bold"
+                FontSize="Medium"
+                VerticalOptions="Center"
+                HorizontalOptions="Start"/>
 
                 <Label Text="Professor do curso: Danilo Filitto" 
-            FontAttributes="Bold"
-            FontSize="Medium" 
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="Center"/>
+                FontAttributes="Bold"
+                FontSize="Medium" 
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Start"/>
             </StackLayout>          
          
         </StackLayout>
